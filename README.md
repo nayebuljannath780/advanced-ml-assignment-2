@@ -4,7 +4,7 @@ Advanced Machine Learning · Nayebul Jannath Chowdhury
 
 This project compares four classifiers under **Method 1 (Dataset-Based Evaluation)**. Each classifier was trained and evaluated separately on D1 and D2. All models used the same frozen training, validation, and test partitions within each dataset.
 
-[Technical report (Word)](./Assignment02_22646206_Technical_Report.docx)
+[Technical report (Word)](./Assignment02_22646206_Report.docx)
 
 ## Datasets
 
