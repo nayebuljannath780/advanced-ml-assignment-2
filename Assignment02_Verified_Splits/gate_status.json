@@ -1,0 +1,114 @@
+{
+  "status": "PASS_SPLITS_FROZEN",
+  "source_urls": {
+    "D1": "https://data.mendeley.com/datasets/hx6f852hw4/2",
+    "D2_original": "https://data.mendeley.com/datasets/fwcj7stb8r/2",
+    "D2_distributor": "original Mendeley archive in current experiment"
+  },
+  "actual_roots": {
+    "D1": "/kaggle/input/datasets/nayebul0/assignment02-d1-original-rice-leaf-1701/Original Images",
+    "D2": "/kaggle/input/datasets/nayebul0/assignment02-d2-rice-leaf-5932/Rice Leaf Disease Images"
+  },
+  "reported_source_counts": {
+    "D1": 1701,
+    "D2": 5932
+  },
+  "expected_checked_counts": {
+    "D1": 1701,
+    "D2": 5932
+  },
+  "observed_image_counts": {
+    "D1": 1701,
+    "D2": 5932
+  },
+  "observed_class_counts": {
+    "D1": {
+      "Bacterial Leaf Blight": 180,
+      "Brown Spot": 267,
+      "Healthy Rice Leaf": 157,
+      "Leaf Blast": 305,
+      "Leaf Scald": 189,
+      "Narrow Brown Leaf Spot": 117,
+      "Rice Hispa": 215,
+      "Sheath Blight": 271
+    },
+    "D2": {
+      "Bacterial Blight": 1584,
+      "Blast": 1440,
+      "Brown Spot": 1600,
+      "Tungro": 1308
+    }
+  },
+  "d1_skipped_augmented_files": 0,
+  "scan_errors": 0,
+  "exact_duplicate_pairs": 1228,
+  "near_duplicate_pairs": 5747,
+  "documented_manual_exclusions": 2,
+  "auto_deduplicated_images": 1228,
+  "grouping_policy": "Same-class near pairs conservatively co-located; cross-class pairs require explicit review; only exact pixel copies removed",
+  "grouping_counts": {
+    "conservative_same_class_pairs": 5737,
+    "reviewed_grouped_cross_class": 1,
+    "reviewed_distinct_cross_class": 9
+  },
+  "stale_review_pairs_after_exclusions": [],
+  "seed": 2026,
+  "near_hamming_radius": 3,
+  "review_csv_path": "/kaggle/input/datasets/nayebul0/assignment02-gate-v2-review-code/assignment02_near_duplicate_decisions_verified.csv",
+  "blockers": [],
+  "splits": {
+    "D1": {
+      "count": 1651,
+      "by_split": {
+        "test": 248,
+        "train": 1156,
+        "val": 247
+      },
+      "by_class": {
+        "Bacterial Leaf Blight": 179,
+        "Brown Spot": 260,
+        "Healthy Rice Leaf": 154,
+        "Leaf Blast": 270,
+        "Leaf Scald": 189,
+        "Narrow Brown Leaf Spot": 117,
+        "Rice Hispa": 215,
+        "Sheath Blight": 267
+      },
+      "sha256_manifest": "3b756d0a4f0326a5e5123284aa884f23fe604d4ace6c56477491acd80ae728d0",
+      "group_count": 1498,
+      "class_id_map": {
+        "Bacterial Leaf Blight": 0,
+        "Brown Spot": 1,
+        "Healthy Rice Leaf": 2,
+        "Leaf Blast": 3,
+        "Leaf Scald": 4,
+        "Narrow Brown Leaf Spot": 5,
+        "Rice Hispa": 6,
+        "Sheath Blight": 7
+      }
+    },
+    "D2": {
+      "count": 4752,
+      "by_split": {
+        "test": 713,
+        "train": 3327,
+        "val": 712
+      },
+      "by_class": {
+        "Bacterial Blight": 1284,
+        "Blast": 960,
+        "Brown Spot": 1200,
+        "Tungro": 1308
+      },
+      "sha256_manifest": "261b97b6fa700197f2dde6bc0f833bf802bd1301c0611606400e990cfad2a185",
+      "group_count": 2241,
+      "class_id_map": {
+        "Bacterial Blight": 0,
+        "Blast": 1,
+        "Brown Spot": 2,
+        "Tungro": 3
+      }
+    }
+  },
+  "warning": "Conservative dHash groups are not confirmed same-photo identities. No independent leaf/session IDs. This gate is not proof of dataset independence or of no leakage."
+}

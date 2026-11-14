@@ -1,0 +1,33 @@
+{
+  "experiment": "Assignment02_Experiment3_D1",
+  "paper": "Paper 1",
+  "model": "MobileNetV3-Large",
+  "selected_training_stage": 2,
+  "selected_stage2_epoch": 13,
+  "dataset": "D1",
+  "test_images": 248,
+  "correct_predictions": 172,
+  "accuracy": 0.6935483870967742,
+  "macro_precision": 0.686568801505532,
+  "macro_recall": 0.6794079188689144,
+  "macro_f1": 0.6705585452565205,
+  "auc_macro_ovr": 0.9291145871072146,
+  "auc_weighted_ovr": 0.9332352600741616,
+  "manifest_sha256": "3b756d0a4f0326a5e5123284aa884f23fe604d4ace6c56477491acd80ae728d0",
+  "checkpoint_sha256": "df4efa70bb6dbce74a3f1bf7052f7c1f5086270c2fba95e8bac1e2559025ceb5",
+  "class_names": {
+    "0": "Bacterial Leaf Blight",
+    "1": "Brown Spot",
+    "2": "Healthy Rice Leaf",
+    "3": "Leaf Blast",
+    "4": "Leaf scald",
+    "5": "Narrow Brown Leaf Spot",
+    "6": "Rice Hispa",
+    "7": "Sheath Blight"
+  },
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.13.2",
+  "sklearn_version": "1.6.1",
+  "test_augmentation": false,
+  "test_shuffle": false
+}

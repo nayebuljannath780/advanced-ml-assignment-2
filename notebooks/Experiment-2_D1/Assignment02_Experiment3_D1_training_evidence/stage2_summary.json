@@ -1,0 +1,19 @@
+{
+  "experiment": "Assignment02_Experiment3_D1",
+  "paper": "Paper 1",
+  "model": "MobileNetV3-Large",
+  "stage": "stage2_partial_fine_tuning",
+  "starting_checkpoint": "/kaggle/working/Assignment02_Experiment3_D1/stage1_best.keras",
+  "starting_checkpoint_sha256": "651ed0865865956da27648d43c992cf923064f3d46d9a9bb919f9bc50dffcd11",
+  "epochs_completed": 15,
+  "best_validation_epoch": 13,
+  "best_validation_accuracy": 0.6558704376220703,
+  "final_training_accuracy": 0.7768166065216064,
+  "final_validation_accuracy": 0.6558704376220703,
+  "final_training_loss": 0.6463262438774109,
+  "final_validation_loss": 0.9703384637832642,
+  "training_seconds": 522.0628625870004,
+  "checkpoint": "/kaggle/working/Assignment02_Experiment3_D1/stage2_best.keras",
+  "history_csv": "/kaggle/working/Assignment02_Experiment3_D1/stage2_history.csv",
+  "test_set_used": false
+}

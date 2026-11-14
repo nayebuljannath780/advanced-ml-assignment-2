@@ -32,6 +32,7 @@ The two 20-epoch runs used the same 247 D1 validation images.
 ## Reproduce on Kaggle
 
 1. Import the notebook for the model and dataset. See the [notebook inventory](./notebooks/README.md).
-2. Attach the corresponding image dataset and the matching CSV from `Assignment02_Verified_Splits.zip`. Use the folder names and input paths expected by the notebook.
+2. Attach the corresponding image dataset and the matching CSV from `Assignment02_Verified_Splits/`. Use the folder names and input paths expected by the notebook.
 3. Enable a T4 GPU and allow access to ImageNet weights where required.
 4. Run the notebook in order and compare the exported metrics with the recorded results. The D1 AMFF-Hybrid Net extension uses the shared D1 initialization produced by the notebook's initialization step.
+

@@ -1,0 +1,172 @@
+{
+  "manifest_sha256": "3b756d0a4f0326a5e5123284aa884f23fe604d4ace6c56477491acd80ae728d0",
+  "checkpoint_sha256": "d0e37e87b2b386d35169b26bbf6e1cf1c7cc95ffa61018e1ba7ec6f4369f964e",
+  "best_epoch": 6,
+  "pca_projection_sha256": "e0f179732dd3c656bb7e85ab6ad7cdf769e0582e9a2e3ea77e00a513429acf19",
+  "class_names": [
+    "Bacterial Leaf Blight",
+    "Brown Spot",
+    "Healthy Rice Leaf",
+    "Leaf Blast",
+    "Leaf Scald",
+    "Narrow Brown Leaf Spot",
+    "Rice Hispa",
+    "Sheath Blight"
+  ],
+  "metrics": {
+    "accuracy": 0.6330645161290323,
+    "correct": 157,
+    "n_test": 248,
+    "macro_precision": 0.6743556948258499,
+    "macro_recall": 0.6195687973251268,
+    "macro_f1": 0.6146983106980795,
+    "macro_ovr_auc": 0.9101358180945096,
+    "weighted_ovr_auc": 0.912600552799232,
+    "test_loss": 1.2006784769482193
+  },
+  "classification_report": {
+    "Bacterial Leaf Blight": {
+      "precision": 0.5806451612903226,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6206896551724138,
+      "support": 27.0
+    },
+    "Brown Spot": {
+      "precision": 0.8235294117647058,
+      "recall": 0.358974358974359,
+      "f1-score": 0.5,
+      "support": 39.0
+    },
+    "Healthy Rice Leaf": {
+      "precision": 0.6333333333333333,
+      "recall": 0.8260869565217391,
+      "f1-score": 0.7169811320754716,
+      "support": 23.0
+    },
+    "Leaf Blast": {
+      "precision": 0.43478260869565216,
+      "recall": 0.7317073170731707,
+      "f1-score": 0.5454545454545454,
+      "support": 41.0
+    },
+    "Leaf Scald": {
+      "precision": 0.6071428571428571,
+      "recall": 0.6071428571428571,
+      "f1-score": 0.6071428571428571,
+      "support": 28.0
+    },
+    "Narrow Brown Leaf Spot": {
+      "precision": 0.6666666666666666,
+      "recall": 0.2222222222222222,
+      "f1-score": 0.3333333333333333,
+      "support": 18.0
+    },
+    "Rice Hispa": {
+      "precision": 0.8709677419354839,
+      "recall": 0.84375,
+      "f1-score": 0.8571428571428571,
+      "support": 32.0
+    },
+    "Sheath Blight": {
+      "precision": 0.7777777777777778,
+      "recall": 0.7,
+      "f1-score": 0.7368421052631579,
+      "support": 40.0
+    },
+    "accuracy": 0.6330645161290323,
+    "macro avg": {
+      "precision": 0.6743556948258499,
+      "recall": 0.6195687973251268,
+      "f1-score": 0.6146983106980795,
+      "support": 248.0
+    },
+    "weighted avg": {
+      "precision": 0.6781044310076502,
+      "recall": 0.6330645161290323,
+      "f1-score": 0.6250608013311497,
+      "support": 248.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      18,
+      0,
+      0,
+      6,
+      2,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      14,
+      3,
+      15,
+      0,
+      0,
+      2,
+      5
+    ],
+    [
+      0,
+      1,
+      19,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      3,
+      1,
+      4,
+      30,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      1,
+      4,
+      17,
+      2,
+      1,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      6,
+      2,
+      4,
+      0,
+      2
+    ],
+    [
+      1,
+      0,
+      2,
+      1,
+      1,
+      0,
+      27,
+      0
+    ],
+    [
+      3,
+      0,
+      1,
+      6,
+      2,
+      0,
+      0,
+      28
+    ]
+  ]
+}

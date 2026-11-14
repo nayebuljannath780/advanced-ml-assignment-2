@@ -1,0 +1,102 @@
+{
+  "dataset": "D2",
+  "split": "test",
+  "mode": "otsu",
+  "image_count": 713,
+  "checkpoint_epoch": 6,
+  "checkpoint_sha256": "f8be8fc49c505731b3a95e91ebbdaed299625b6fa8a5bfb2d024b8b9282cb3d3",
+  "initialization_sha256": "545cade231e29e4c552ef469e0d0205d567fb2efa4b82e5fe720715f9a9e0506",
+  "manifest_sha256": "261b97b6fa700197f2dde6bc0f833bf802bd1301c0611606400e990cfad2a185",
+  "predictions_sha256": "dfcf1e10be8e77ce553e35e50a5e621de0beb1a6615fb2ffadddbdb436b5c2a8",
+  "probability_class_order": [
+    "Bacterial Blight",
+    "Blast",
+    "Brown Spot",
+    "Tungro"
+  ],
+  "examples": [
+    "Bacterialblight/BACTERAILBLIGHT3_007.jpg",
+    "Bacterialblight/BACTERAILBLIGHT3_011.jpg",
+    "Bacterialblight/BACTERAILBLIGHT3_026.jpg",
+    "Bacterialblight/BACTERAILBLIGHT3_058.jpg"
+  ],
+  "sklearn": "1.6.1",
+  "matplotlib": "3.10.0",
+  "metrics": {
+    "correct": 598,
+    "accuracy": 0.8387096774193549,
+    "macro_precision": 0.8304690717461333,
+    "macro_recall": 0.8309928418690447,
+    "macro_f1": 0.8283782550205092,
+    "confusion_matrix": [
+      [
+        140,
+        37,
+        16,
+        0
+      ],
+      [
+        18,
+        102,
+        20,
+        4
+      ],
+      [
+        4,
+        13,
+        163,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        193
+      ]
+    ],
+    "per_class": [
+      {
+        "class_id": 0,
+        "support": 193,
+        "correct": 140,
+        "precision": 0.8641975308641975,
+        "recall": 0.7253886010362695,
+        "f1": 0.7887323943661971,
+        "class_name": "Bacterial Blight",
+        "ovr_auc": 0.9594958150657632
+      },
+      {
+        "class_id": 1,
+        "support": 144,
+        "correct": 102,
+        "precision": 0.6710526315789473,
+        "recall": 0.7083333333333334,
+        "f1": 0.6891891891891891,
+        "class_name": "Blast",
+        "ovr_auc": 0.9194493263034564
+      },
+      {
+        "class_id": 2,
+        "support": 180,
+        "correct": 163,
+        "precision": 0.806930693069307,
+        "recall": 0.9055555555555556,
+        "f1": 0.8534031413612565,
+        "class_name": "Brown Spot",
+        "ovr_auc": 0.9767979987492184
+      },
+      {
+        "class_id": 3,
+        "support": 196,
+        "correct": 193,
+        "precision": 0.9796954314720813,
+        "recall": 0.9846938775510204,
+        "f1": 0.9821882951653944,
+        "class_name": "Tungro",
+        "ovr_auc": 0.999269727233253
+      }
+    ],
+    "macro_ovr_auc": 0.9637532168379228,
+    "weighted_ovr_auc": 0.9667095394221135
+  }
+}

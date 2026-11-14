@@ -1,0 +1,97 @@
+class_id,class_name,sheet_row,split,rel_path,otsu_threshold,foreground_fraction,constant_gray,coverage_flag
+0,Bacterial Leaf Blight,1,train,Bacterial Leaf Blight/Bacterial_leaf_Blight  (122).jpg,111,0.593033,False,False
+0,Bacterial Leaf Blight,2,train,Bacterial Leaf Blight/Bacterial_leaf_Blight  (153).jpg,134,0.220876,False,False
+0,Bacterial Leaf Blight,3,train,Bacterial Leaf Blight/Bacterial_leaf_Blight  (21).jpg,115,0.554236,False,False
+0,Bacterial Leaf Blight,4,train,Bacterial Leaf Blight/Bacterial_leaf_Blight  (94).jpg,97,0.478795,False,False
+0,Bacterial Leaf Blight,5,train,Bacterial Leaf Blight/Bacterial_leaf_Blight  (22).jpg,120,0.555272,False,False
+0,Bacterial Leaf Blight,6,train,Bacterial Leaf Blight/Bacterial_leaf_Blight  (41).jpg,119,0.443080,False,False
+0,Bacterial Leaf Blight,7,train,Bacterial Leaf Blight/Bacterial_leaf_Blight  (79).jpg,93,0.462186,False,False
+0,Bacterial Leaf Blight,8,train,Bacterial Leaf Blight/Bacterial_leaf_Blight  (120).jpg,111,0.390811,False,False
+0,Bacterial Leaf Blight,9,val,Bacterial Leaf Blight/Bacterial_leaf_Blight  (14).jpg,110,0.527503,False,False
+0,Bacterial Leaf Blight,10,val,Bacterial Leaf Blight/Bacterial_leaf_Blight  (67).jpg,130,0.292278,False,False
+0,Bacterial Leaf Blight,11,val,Bacterial Leaf Blight/Bacterial_leaf_Blight  (51).jpg,127,0.205038,False,False
+0,Bacterial Leaf Blight,12,val,Bacterial Leaf Blight/Bacterial_leaf_Blight  (175).jpg,112,0.586283,False,False
+1,Brown Spot,1,train,Brown Spot/Brown_spot  (62).jpg,131,0.365434,False,False
+1,Brown Spot,2,train,Brown Spot/Brown_spot  (57).jpg,140,0.287256,False,False
+1,Brown Spot,3,train,Brown Spot/Brown_spot  (43).jpg,137,0.433647,False,False
+1,Brown Spot,4,train,Brown Spot/Brown_spot  (66).jpg,132,0.475526,False,False
+1,Brown Spot,5,train,Brown Spot/Brown_spot  (3).jpg,115,0.577301,False,False
+1,Brown Spot,6,train,Brown Spot/Brown_spot  (190).jpg,128,0.276015,False,False
+1,Brown Spot,7,train,Brown Spot/Brown_spot  (1).jpg,133,0.706819,False,False
+1,Brown Spot,8,train,Brown Spot/Brown_spot  (74).jpg,134,0.524075,False,False
+1,Brown Spot,9,val,Brown Spot/Brown_spot  (115).jpg,123,0.501249,False,False
+1,Brown Spot,10,val,Brown Spot/Brown_spot  (123).jpg,127,0.385922,False,False
+1,Brown Spot,11,val,Brown Spot/Brown_spot  (196).jpg,127,0.390031,False,False
+1,Brown Spot,12,val,Brown Spot/Brown_spot  (12).jpg,130,0.452966,False,False
+2,Healthy Rice Leaf,1,train,Healthy Rice Leaf/Healthy_rice_leaf  (33).jpg,144,0.562552,False,False
+2,Healthy Rice Leaf,2,train,Healthy Rice Leaf/Healthy_rice_leaf  (101).jpg,107,0.569489,False,False
+2,Healthy Rice Leaf,3,train,Healthy Rice Leaf/Healthy_rice_leaf  (96).jpg,130,0.529151,False,False
+2,Healthy Rice Leaf,4,train,Healthy Rice Leaf/Healthy_rice_leaf  (77).jpg,114,0.649527,False,False
+2,Healthy Rice Leaf,5,train,Healthy Rice Leaf/Healthy_rice_leaf  (41).jpg,95,0.500903,False,False
+2,Healthy Rice Leaf,6,train,Healthy Rice Leaf/Healthy_rice_leaf  (75).jpg,117,0.624229,False,False
+2,Healthy Rice Leaf,7,train,Healthy Rice Leaf/Healthy_rice_leaf  (151).jpg,152,0.078284,False,False
+2,Healthy Rice Leaf,8,train,Healthy Rice Leaf/Healthy_rice_leaf  (136).jpg,118,0.503641,False,False
+2,Healthy Rice Leaf,9,val,Healthy Rice Leaf/Healthy_rice_leaf  (156).jpg,169,0.071615,False,False
+2,Healthy Rice Leaf,10,val,Healthy Rice Leaf/Healthy_rice_leaf  (13).jpg,93,0.418713,False,False
+2,Healthy Rice Leaf,11,val,Healthy Rice Leaf/Healthy_rice_leaf  (148).jpg,85,0.484986,False,False
+2,Healthy Rice Leaf,12,val,Healthy Rice Leaf/Healthy_rice_leaf  (49).jpg,113,0.389152,False,False
+3,Leaf Blast,1,train,Leaf Blast/Leaf_blast  (61).jpg,107,0.282100,False,False
+3,Leaf Blast,2,train,Leaf Blast/Leaf_blast  (118).jpg,114,0.282499,False,False
+3,Leaf Blast,3,train,Leaf Blast/Leaf_blast  (95).jpg,104,0.364195,False,False
+3,Leaf Blast,4,train,Leaf Blast/Leaf_blast  (236).jpg,116,0.481718,False,False
+3,Leaf Blast,5,train,Leaf Blast/Leaf_blast  (122).jpg,105,0.588329,False,False
+3,Leaf Blast,6,train,Leaf Blast/Leaf_blast  (38).jpg,136,0.346567,False,False
+3,Leaf Blast,7,train,Leaf Blast/Leaf_blast  (303).jpg,109,0.476749,False,False
+3,Leaf Blast,8,train,Leaf Blast/Leaf_blast  (22).jpg,132,0.557079,False,False
+3,Leaf Blast,9,val,Leaf Blast/Leaf_blast  (260).jpg,120,0.554714,False,False
+3,Leaf Blast,10,val,Leaf Blast/Leaf_blast  (53).jpg,117,0.189838,False,False
+3,Leaf Blast,11,val,Leaf Blast/Leaf_blast  (161).jpg,123,0.633450,False,False
+3,Leaf Blast,12,val,Leaf Blast/Leaf_blast  (85).jpg,114,0.565396,False,False
+4,Leaf Scald,1,train,Leaf scald/Leaf_scald  (36).jpg,113,0.373352,False,False
+4,Leaf Scald,2,train,Leaf scald/Leaf_scald  (105).jpg,110,0.353476,False,False
+4,Leaf Scald,3,train,Leaf scald/Leaf_scald  (56).jpg,97,0.398570,False,False
+4,Leaf Scald,4,train,Leaf scald/Leaf_scald  (55).jpg,120,0.357648,False,False
+4,Leaf Scald,5,train,Leaf scald/Leaf_scald  (83).jpg,112,0.586496,False,False
+4,Leaf Scald,6,train,Leaf scald/Leaf_scald  (70).jpg,112,0.529018,False,False
+4,Leaf Scald,7,train,Leaf scald/Leaf_scald  (122).jpg,141,0.214073,False,False
+4,Leaf Scald,8,train,Leaf scald/Leaf_scald  (63).jpg,101,0.385815,False,False
+4,Leaf Scald,9,val,Leaf scald/Leaf_scald  (98).jpg,135,0.284518,False,False
+4,Leaf Scald,10,val,Leaf scald/Leaf_scald  (187).jpg,150,0.688085,False,False
+4,Leaf Scald,11,val,Leaf scald/Leaf_scald  (185).jpg,126,0.297938,False,False
+4,Leaf Scald,12,val,Leaf scald/Leaf_scald  (182).jpg,114,0.348267,False,False
+5,Narrow Brown Leaf Spot,1,train,Narrow Brown Leaf Spot/Narrow_brown_leaf_spot  (16).jpg,110,0.360863,False,False
+5,Narrow Brown Leaf Spot,2,train,Narrow Brown Leaf Spot/Narrow_brown_leaf_spot  (7).jpg,105,0.260682,False,False
+5,Narrow Brown Leaf Spot,3,train,Narrow Brown Leaf Spot/Narrow_brown_leaf_spot  (80).jpg,111,0.611740,False,False
+5,Narrow Brown Leaf Spot,4,train,Narrow Brown Leaf Spot/Narrow_brown_leaf_spot  (93).jpg,95,0.604406,False,False
+5,Narrow Brown Leaf Spot,5,train,Narrow Brown Leaf Spot/Narrow_brown_leaf_spot  (78).jpg,131,0.410847,False,False
+5,Narrow Brown Leaf Spot,6,train,Narrow Brown Leaf Spot/Narrow_brown_leaf_spot  (64).jpg,124,0.479911,False,False
+5,Narrow Brown Leaf Spot,7,train,Narrow Brown Leaf Spot/Narrow_brown_leaf_spot  (84).jpg,111,0.579799,False,False
+5,Narrow Brown Leaf Spot,8,train,Narrow Brown Leaf Spot/Narrow_brown_leaf_spot  (43).jpg,107,0.302269,False,False
+5,Narrow Brown Leaf Spot,9,val,Narrow Brown Leaf Spot/Narrow_brown_leaf_spot  (66).jpg,105,0.597656,False,False
+5,Narrow Brown Leaf Spot,10,val,Narrow Brown Leaf Spot/Narrow_brown_leaf_spot  (8).jpg,129,0.448315,False,False
+5,Narrow Brown Leaf Spot,11,val,Narrow Brown Leaf Spot/Narrow_brown_leaf_spot  (42).jpg,157,0.608073,False,False
+5,Narrow Brown Leaf Spot,12,val,Narrow Brown Leaf Spot/Narrow_brown_leaf_spot  (71).jpg,122,0.506643,False,False
+6,Rice Hispa,1,train,Rice Hispa/Rice_hispa  (106).jpg,133,0.251727,False,False
+6,Rice Hispa,2,train,Rice Hispa/Rice_hispa  (94).jpg,124,0.341598,False,False
+6,Rice Hispa,3,train,Rice Hispa/Rice_hispa  (163).jpg,109,0.479486,False,False
+6,Rice Hispa,4,train,Rice Hispa/Rice_hispa  (135).jpg,118,0.440901,False,False
+6,Rice Hispa,5,train,Rice Hispa/Rice_hispa  (112).jpg,125,0.340535,False,False
+6,Rice Hispa,6,train,Rice Hispa/Rice_hispa  (74).jpg,109,0.371997,False,False
+6,Rice Hispa,7,train,Rice Hispa/Rice_hispa  (126).jpg,90,0.372157,False,False
+6,Rice Hispa,8,train,Rice Hispa/Rice_hispa  (44).jpg,104,0.416560,False,False
+6,Rice Hispa,9,val,Rice Hispa/Rice_hispa  (91).jpg,135,0.168633,False,False
+6,Rice Hispa,10,val,Rice Hispa/Rice_hispa  (182).jpg,95,0.508371,False,False
+6,Rice Hispa,11,val,Rice Hispa/Rice_hispa  (206).jpg,142,0.660661,False,False
+6,Rice Hispa,12,val,Rice Hispa/Rice_hispa  (154).jpg,96,0.322731,False,False
+7,Sheath Blight,1,train,Sheath Blight/Sheath_blight  (61).jpg,98,0.312155,False,False
+7,Sheath Blight,2,train,Sheath Blight/Sheath_blight  (89).jpg,129,0.395700,False,False
+7,Sheath Blight,3,train,Sheath Blight/Sheath_blight  (244).jpg,122,0.474224,False,False
+7,Sheath Blight,4,train,Sheath Blight/Sheath_blight  (8).jpg,121,0.560268,False,False
+7,Sheath Blight,5,train,Sheath Blight/Sheath_blight  (249).jpg,96,0.363813,False,False
+7,Sheath Blight,6,train,Sheath Blight/Sheath_blight  (94).jpg,104,0.496014,False,False
+7,Sheath Blight,7,train,Sheath Blight/Sheath_blight  (34).jpg,118,0.581021,False,False
+7,Sheath Blight,8,train,Sheath Blight/Sheath_blight  (180).jpg,114,0.439812,False,False
+7,Sheath Blight,9,val,Sheath Blight/Sheath_blight  (76).jpg,119,0.335433,False,False
+7,Sheath Blight,10,val,Sheath Blight/Sheath_blight  (251).jpg,110,0.259688,False,False
+7,Sheath Blight,11,val,Sheath Blight/Sheath_blight  (224).jpg,108,0.287495,False,False
+7,Sheath Blight,12,val,Sheath Blight/Sheath_blight  (55).jpg,137,0.115965,False,False

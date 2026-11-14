@@ -1,0 +1,22 @@
+{
+  "experiment": "Paper6_MFA_SqueezeNet_D2_Revised",
+  "checkpoint_epoch": 10,
+  "test_samples": 713,
+  "correct_predictions": 706,
+  "num_classes": 4,
+  "accuracy": 0.9901823281907434,
+  "precision_macro": 0.9901259454830884,
+  "recall_macro": 0.9894232153137593,
+  "f1_macro": 0.9897492366054869,
+  "auc_macro_ovr": 0.9999013607642053,
+  "auc_weighted_ovr": 0.9999066184482887,
+  "manifest_sha256": "261b97b6fa700197f2dde6bc0f833bf802bd1301c0611606400e990cfad2a185",
+  "class_mapping": {
+    "Bacterial Blight": 0,
+    "Blast": 1,
+    "Brown Spot": 2,
+    "Tungro": 3
+  },
+  "evaluation_method": "Single-label multiclass, argmax predictions, OvR ROC-AUC",
+  "split_integrity_note": "Recorded duplicate-aware gate passed. The latest audit did not independently verify near-duplicate groups across splits."
+}

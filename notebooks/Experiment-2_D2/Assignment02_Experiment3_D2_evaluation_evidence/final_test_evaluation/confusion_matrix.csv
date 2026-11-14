@@ -1,0 +1,5 @@
+,pred_0_Bacterialblight,pred_1_Blast,pred_2_Brownspot,pred_3_Tungro
+true_0_Bacterialblight,167,24,0,2
+true_1_Blast,1,141,2,0
+true_2_Brownspot,2,17,161,0
+true_3_Tungro,0,1,0,195

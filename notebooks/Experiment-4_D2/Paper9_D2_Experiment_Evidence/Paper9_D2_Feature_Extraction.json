@@ -1,0 +1,57 @@
+{
+  "manifest_sha256": "261b97b6fa700197f2dde6bc0f833bf802bd1301c0611606400e990cfad2a185",
+  "preprocessing_report_sha256": "752e32c2ea7d71fe9d9f92b854b354c82c4669f506aeeee5d5e5a448171641a1",
+  "counts": {
+    "train": 9981,
+    "val": 712
+  },
+  "index_file": "Paper9_D2_Feature_Index.csv",
+  "index_sha256": "d2cd31421c91b7001e58dd9afff9557c3cf58f0d5a2598094cbaeff909aa0a79",
+  "donor_order": [
+    "vgg16",
+    "resnet50",
+    "inception_v3"
+  ],
+  "fused_width": 8192,
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "batch_size": 32,
+  "donors": {
+    "vgg16": {
+      "file": "vgg16_features.npy",
+      "shape": [
+        10693,
+        4096
+      ],
+      "dtype": "float32",
+      "sha256": "61cbe38b6d9eb7bed8bb95206711e182dc16482fc75db4769c2d38c7cca70160",
+      "imagenet_sha256": "8b81f25be4126c5ec088f19901b2b34e9a40e3d46246c9d208a3d727462b4f5c",
+      "feature_tap": "fc2",
+      "seconds": 89.389
+    },
+    "resnet50": {
+      "file": "resnet50_features.npy",
+      "shape": [
+        10693,
+        2048
+      ],
+      "dtype": "float32",
+      "sha256": "7d06bdef584441dd2885c39ccfddbbe9e5e5209b584cdcc093c6503b1c26e15d",
+      "imagenet_sha256": "66c8b43daff3fcc15bc4f30e3d2a167e21a14d9c9598a5394e5516471f4af504",
+      "feature_tap": "avg_pool",
+      "seconds": 114.604
+    },
+    "inception_v3": {
+      "file": "inception_v3_features.npy",
+      "shape": [
+        10693,
+        2048
+      ],
+      "dtype": "float32",
+      "sha256": "e7be9b3490a00d6bfc62cea96fee1801beada19203f5411c8b99ca4038b1b538",
+      "imagenet_sha256": "9617109a16463f250180008f9818336b767bdf5164315e8cd5761a8c34caa62a",
+      "feature_tap": "global_average_pool",
+      "seconds": 142.613
+    }
+  }
+}

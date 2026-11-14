@@ -1,0 +1,88 @@
+{
+  "manifest_sha256": "261b97b6fa700197f2dde6bc0f833bf802bd1301c0611606400e990cfad2a185",
+  "checkpoint_sha256": "d7190d3524261f4853e7932889d042a345784eb0e2aeb161b2351a6345ed040b",
+  "best_epoch": 33,
+  "pca_projection_sha256": "7e1fb0020fa299e9fc37f11ef4b190568f63ec4a6935833c997fb2098fece98c",
+  "class_names": [
+    "Bacterial Blight",
+    "Blast",
+    "Brown Spot",
+    "Tungro"
+  ],
+  "metrics": {
+    "accuracy": 0.9438990182328191,
+    "correct": 673,
+    "n_test": 713,
+    "macro_precision": 0.9419722266181358,
+    "macro_recall": 0.9406053202800981,
+    "macro_f1": 0.9411821373618683,
+    "macro_ovr_auc": 0.9954973155441365,
+    "weighted_ovr_auc": 0.9957690637633115,
+    "test_loss": 0.3390157485737038
+  },
+  "classification_report": {
+    "Bacterial Blight": {
+      "precision": 0.91,
+      "recall": 0.9430051813471503,
+      "f1-score": 0.926208651399491,
+      "support": 193.0
+    },
+    "Blast": {
+      "precision": 0.9084507042253521,
+      "recall": 0.8958333333333334,
+      "f1-score": 0.9020979020979021,
+      "support": 144.0
+    },
+    "Brown Spot": {
+      "precision": 0.949438202247191,
+      "recall": 0.9388888888888889,
+      "f1-score": 0.9441340782122905,
+      "support": 180.0
+    },
+    "Tungro": {
+      "precision": 1.0,
+      "recall": 0.9846938775510204,
+      "f1-score": 0.9922879177377892,
+      "support": 196.0
+    },
+    "accuracy": 0.9438990182328191,
+    "macro avg": {
+      "precision": 0.9419722266181358,
+      "recall": 0.9406053202800981,
+      "f1-score": 0.9411821373618683,
+      "support": 713.0
+    },
+    "weighted avg": {
+      "precision": 0.9443839801023072,
+      "recall": 0.9438990182328191,
+      "f1-score": 0.944029359855566,
+      "support": 713.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      182,
+      9,
+      2,
+      0
+    ],
+    [
+      8,
+      129,
+      7,
+      0
+    ],
+    [
+      7,
+      4,
+      169,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      193
+    ]
+  ]
+}

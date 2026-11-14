@@ -1,0 +1,92 @@
+{
+  "dataset": "D1",
+  "method": "Paper 5 AMFF-Hybrid Net paper-guided reconstruction",
+  "mode": "otsu",
+  "manifest_sha256": "3b756d0a4f0326a5e5123284aa884f23fe604d4ace6c56477491acd80ae728d0",
+  "initialization_sha256": "7531bf3507abba811ae94207e0b4075124567ba239e09c772b402e5635c6dc50",
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "class_map": {
+    "0": "Bacterial Leaf Blight",
+    "1": "Brown Spot",
+    "2": "Healthy Rice Leaf",
+    "3": "Leaf Blast",
+    "4": "Leaf Scald",
+    "5": "Narrow Brown Leaf Spot",
+    "6": "Rice Hispa",
+    "7": "Sheath Blight"
+  },
+  "fit_split_counts": {
+    "train": 1156,
+    "val": 247
+  },
+  "epoch_count": 6,
+  "batch_size": 30,
+  "training_batches_per_epoch": 39,
+  "validation_batches": 9,
+  "include_remainder_batch": true,
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "momentum": 0.9,
+  "nesterov": false,
+  "weight_decay": null,
+  "loss": "sparse categorical cross-entropy",
+  "seed": 2026,
+  "data_seed": 2026,
+  "precision": "float32",
+  "jit_compile": false,
+  "op_determinism": true,
+  "checkpoint_selection": "Minimum validation loss with earlier epoch winning ties",
+  "validation_frequency_epochs": 1,
+  "preprocessing": {
+    "resize": "Fit longest side to 224, preserve aspect ratio",
+    "contrast": "Per-image CIELAB L* min-max stretch",
+    "otsu_bright_mask": true,
+    "padding": "Center-pad to 224 with RGB zeros after preprocessing",
+    "normalization": "Keras ImageNet RGB-to-BGR and channel mean subtraction"
+  },
+  "training_augmentation": {
+    "translation_pixels": [
+      -25,
+      25
+    ],
+    "independent_scale": [
+      0.9,
+      1.1
+    ],
+    "rotation_degrees": [
+      -20,
+      20
+    ],
+    "interpolation": "bilinear",
+    "fill_rgb": [
+      0,
+      0,
+      0
+    ],
+    "seed_inputs": [
+      "data seed",
+      "zero-based epoch",
+      "cache row index"
+    ]
+  },
+  "runtime": {
+    "python": "3.13.16",
+    "tensorflow": "2.21.0",
+    "keras": "3.13.2",
+    "numpy": "2.1.3",
+    "opencv": "4.14.0",
+    "pillow": "13.0.0",
+    "device": "/GPU:0",
+    "gpu": {
+      "compute_capability": [
+        7,
+        5
+      ],
+      "device_name": "Tesla T4"
+    }
+  }
+}

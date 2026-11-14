@@ -1,0 +1,52 @@
+{
+  "dataset": "D2",
+  "manifest_sha256": "261b97b6fa700197f2dde6bc0f833bf802bd1301c0611606400e990cfad2a185",
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "device": "/GPU:0",
+  "probe_input_shape": [
+    2,
+    224,
+    224,
+    3
+  ],
+  "probe_input_range": [
+    0,
+    1
+  ],
+  "donors": {
+    "vgg16": {
+      "url": "https://storage.googleapis.com/tensorflow/keras-applications/vgg16/vgg16_weights_tf_dim_ordering_tf_kernels.h5",
+      "file": "/kaggle/working/paper9_twin_cnn_d2/imagenet/keras_weights/vgg16_weights_tf_dim_ordering_tf_kernels.h5",
+      "bytes": 553467096,
+      "md5": "64373286793e3c8b2b4e3219cbf3544b",
+      "sha256": "8b81f25be4126c5ec088f19901b2b34e9a40e3d46246c9d208a3d727462b4f5c",
+      "feature_tap": "fc2",
+      "output_layer": "fc2",
+      "descriptor_width": 4096,
+      "extractor_parameters": 134260544
+    },
+    "resnet50": {
+      "url": "https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5",
+      "file": "/kaggle/working/paper9_twin_cnn_d2/imagenet/keras_weights/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5",
+      "bytes": 94765736,
+      "md5": "4d473c1dd8becc155b73f8504c6f6626",
+      "sha256": "66c8b43daff3fcc15bc4f30e3d2a167e21a14d9c9598a5394e5516471f4af504",
+      "feature_tap": "avg_pool",
+      "output_layer": "avg_pool",
+      "descriptor_width": 2048,
+      "extractor_parameters": 23587712
+    },
+    "inception_v3": {
+      "url": "https://storage.googleapis.com/tensorflow/keras-applications/inception_v3/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5",
+      "file": "/kaggle/working/paper9_twin_cnn_d2/imagenet/keras_weights/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5",
+      "bytes": 87910968,
+      "md5": "bcbd6486424b2319ff4ef7d526e38f63",
+      "sha256": "9617109a16463f250180008f9818336b767bdf5164315e8cd5761a8c34caa62a",
+      "feature_tap": "global_average_pool",
+      "output_layer": "global_average_pooling2d",
+      "descriptor_width": 2048,
+      "extractor_parameters": 21802784
+    }
+  }
+}

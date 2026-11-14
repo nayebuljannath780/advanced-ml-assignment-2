@@ -1,0 +1,51 @@
+{
+  "paper": "Upadhyay and Dwivedi (2025), DOI: 10.1111/jph.70092",
+  "implementation": "Independent PyTorch adaptation, not exact MATLAB reproduction",
+  "dataset": "D1, eight classes",
+  "manifest_sha256": "3b756d0a4f0326a5e5123284aa884f23fe604d4ace6c56477491acd80ae728d0",
+  "split_counts": {
+    "train": 1156,
+    "val": 247,
+    "test": 248
+  },
+  "seed": 2026,
+  "batch_size": 30,
+  "epochs": 10,
+  "input_size": [
+    227,
+    227
+  ],
+  "backbone": "ImageNet-pretrained SqueezeNet 1.1",
+  "frozen_feature_indices": [
+    0,
+    3,
+    4
+  ],
+  "mfa_branch_filters": [
+    5,
+    5
+  ],
+  "class_projection": "10-to-8 pointwise convolution",
+  "preprocessing": "RGB resize, Lab L* min-max stretch, ImageNet normalization",
+  "augmentation": "Horizontal reflection, +/-30-pixel translations, independent 0.9-1.1 scaling",
+  "optimizer": {
+    "name": "SGD",
+    "backbone_lr": 0.0003,
+    "new_layer_lr": 0.003,
+    "momentum": 0.9,
+    "weight_decay_weights": 0.0001,
+    "weight_decay_biases": 0.0
+  },
+  "software": {
+    "pytorch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "opencv": "4.14.0"
+  },
+  "disclosures": [
+    "The paper does not specify the MFA class-projection operation.",
+    "The original paper used five classes, a 70/30 split, and six epochs.",
+    "D1 uses fixed duplicate-aware train, validation, and test partitions.",
+    "New-layer learning-rate factor and several defaults are reconstruction choices.",
+    "The D1 test set was previously evaluated in an exploratory run."
+  ]
+}

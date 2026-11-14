@@ -1,0 +1,467 @@
+{
+  "manifest_sha256": "3b756d0a4f0326a5e5123284aa884f23fe604d4ace6c56477491acd80ae728d0",
+  "opencv": "4.14.0",
+  "pillow": "13.0.0",
+  "numpy": "2.1.3",
+  "image_shape": [
+    224,
+    224,
+    3
+  ],
+  "normalization": "RGB divided by 255",
+  "resize": "bilinear",
+  "seed": 2026,
+  "training_augmented_views_per_image": 2,
+  "rotation_degrees": [
+    -20.0,
+    20.0
+  ],
+  "zoom_range": [
+    0.9,
+    1.1
+  ],
+  "brightness_multiplier_range": [
+    0.8,
+    1.2
+  ],
+  "flip_probability_per_axis": 0.5,
+  "affine_border": "reflect_101",
+  "planned_counts": {
+    "train": 3468,
+    "val": 247
+  },
+  "samples": [
+    {
+      "split": "train",
+      "class_name": "Bacterial Leaf Blight",
+      "image": "Bacterial Leaf Blight/Bacterial_leaf_Blight  (71).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "33351bfd622efd56a95f2e63ca48f1ebf35526fcc7b27c38d4ec51384fddf82e",
+          "pixel_min": 0.003921568859368563,
+          "pixel_max": 1.0,
+          "augmentation": null
+        },
+        {
+          "view_id": 1,
+          "pixel_sha256": "d8f209a57a94577a8d75d6347a4d547eea52f8896082507542c3a1a83f8c81f2",
+          "pixel_min": 0.011540627107024193,
+          "pixel_max": 0.9809532761573792,
+          "augmentation": {
+            "horizontal_flip": false,
+            "vertical_flip": false,
+            "rotation_degrees": -8.455429532522135,
+            "zoom": 0.9551498168855412,
+            "brightness_multiplier": 0.9809532643711982
+          }
+        },
+        {
+          "view_id": 2,
+          "pixel_sha256": "621baa6b56c76ed62ada1f78e799de363a16bca157177b44d1f7ff0c02888752",
+          "pixel_min": 0.024970799684524536,
+          "pixel_max": 1.0,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": false,
+            "rotation_degrees": -6.591324990501008,
+            "zoom": 1.0195568812973232,
+            "brightness_multiplier": 1.0612589498049547
+          }
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "class_name": "Bacterial Leaf Blight",
+      "image": "Bacterial Leaf Blight/Bacterial_leaf_Blight  (51).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "f2f98c7aa6292a1ffd78a956611f8d067d1d088eb116686c28319a83cd53b0db",
+          "pixel_min": 0.0,
+          "pixel_max": 0.9960784316062927,
+          "augmentation": null
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "class_name": "Brown Spot",
+      "image": "Brown Spot/Brown_spot  (142).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "78b5da5c774eec64031685cb09fedb2d2419b8bd9dbbcc408ce457647f71e35e",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": null
+        },
+        {
+          "view_id": 1,
+          "pixel_sha256": "d780bc8f67769af196301261b358141aeb00e3d4a230b56fc81c1c1df534e601",
+          "pixel_min": 0.04088735952973366,
+          "pixel_max": 1.0,
+          "augmentation": {
+            "horizontal_flip": false,
+            "vertical_flip": false,
+            "rotation_degrees": -3.6941681473690267,
+            "zoom": 0.987636067617549,
+            "brightness_multiplier": 1.158475178032442
+          }
+        },
+        {
+          "view_id": 2,
+          "pixel_sha256": "f5101fc493493b7a5a22b0ce9104eb0027e2b64ecf24257919229a4a6ae3cf1b",
+          "pixel_min": 0.028012579306960106,
+          "pixel_max": 0.8929009437561035,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": false,
+            "rotation_degrees": -6.192971789813138,
+            "zoom": 0.9852062960557748,
+            "brightness_multiplier": 0.8929009386477155
+          }
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "class_name": "Brown Spot",
+      "image": "Brown Spot/Brown_spot  (264).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "ce5c37147ae8f3d64aa3141c543fe4953a3994df5351117239c373563576336f",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": null
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "class_name": "Healthy Rice Leaf",
+      "image": "Healthy Rice Leaf/Healthy_rice_leaf  (138).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "ee5ddda311f6f292d7c9f8adb7575eb3e8fe9d481d1648db8feeb67545618f8e",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": null
+        },
+        {
+          "view_id": 1,
+          "pixel_sha256": "f1508547b20db05a9a3e1262e8f3892c933a8927ff8817f4c9b01d6cfd0602c2",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": true,
+            "rotation_degrees": -3.653781877212701,
+            "zoom": 0.9102860522979389,
+            "brightness_multiplier": 1.0079921624668533
+          }
+        },
+        {
+          "view_id": 2,
+          "pixel_sha256": "397415a43cec212df0cc9061c8362d10e164020691aa3b347c5a9459e5e27375",
+          "pixel_min": 0.0032229418866336346,
+          "pixel_max": 0.8218501806259155,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": false,
+            "rotation_degrees": -5.204048957958056,
+            "zoom": 1.0020644442243654,
+            "brightness_multiplier": 0.821850177821638
+          }
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "class_name": "Healthy Rice Leaf",
+      "image": "Healthy Rice Leaf/Healthy_rice_leaf  (121).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "6d2e513cc445f70a9ca55b43d3fb40dacd890516257caa867cccd885028bdea6",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": null
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "class_name": "Leaf Blast",
+      "image": "Leaf Blast/Leaf_blast  (248).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "d8c3f8ee3a90b84bb8b6ffe7fec4af30230dfeaa5ec3e6b6bd7243b909df1872",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": null
+        },
+        {
+          "view_id": 1,
+          "pixel_sha256": "bd384ec25b24728465d8c4e4b3434115b18319fec3f47fcf4555ef2533321627",
+          "pixel_min": 0.0,
+          "pixel_max": 0.9267492890357971,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": true,
+            "rotation_degrees": -13.939371059158718,
+            "zoom": 0.993852325245906,
+            "brightness_multiplier": 0.926749304645645
+          }
+        },
+        {
+          "view_id": 2,
+          "pixel_sha256": "9ae4193f9c79ceb37d15589fb28835a6003056be0d333688e2080e4420f02415",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": false,
+            "rotation_degrees": 10.326608604141533,
+            "zoom": 0.9312811245110809,
+            "brightness_multiplier": 1.0199055104311787
+          }
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "class_name": "Leaf Blast",
+      "image": "Leaf Blast/Leaf_blast  (36).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "dc9aabaa1769e768298bafee50be6e99eb24206039bf2dbfa087dbc4dd02cc0f",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": null
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "class_name": "Leaf Scald",
+      "image": "Leaf scald/Leaf_scald  (85).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "a3b5bda7646a8d6f48d7fa4489fe3218e7fdea7fd5ab4123c0fc3ce92201647a",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": null
+        },
+        {
+          "view_id": 1,
+          "pixel_sha256": "e0f77fbf189721daa9f5f3d48584dc477c561dd22b97da64d3d87d959a074b3a",
+          "pixel_min": 0.02131115272641182,
+          "pixel_max": 0.9057239890098572,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": false,
+            "rotation_degrees": -1.70531030626357,
+            "zoom": 1.0591013548025334,
+            "brightness_multiplier": 0.9057239827045397
+          }
+        },
+        {
+          "view_id": 2,
+          "pixel_sha256": "fa3e145abdf6df6812e4e9f2464af746422e0077975f1969b17af4c81be7138a",
+          "pixel_min": 0.01375348400324583,
+          "pixel_max": 1.0,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": false,
+            "rotation_degrees": 3.1747517487356305,
+            "zoom": 1.00775500396507,
+            "brightness_multiplier": 1.1690461282126496
+          }
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "class_name": "Leaf Scald",
+      "image": "Leaf scald/Leaf_scald  (182).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "b3a035ba14e8fcaf0a5870e7508933fcd3d75a6e28621078427aeee5520bb1c8",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": null
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "class_name": "Narrow Brown Leaf Spot",
+      "image": "Narrow Brown Leaf Spot/Narrow_brown_leaf_spot  (75).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "c165feb7bc521068f16dc3ec56229f6e5d034d12642260e30958ccabe46b180e",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": null
+        },
+        {
+          "view_id": 1,
+          "pixel_sha256": "2f0cd44835b01dd73bb99902040f6db3990d5b395bb55d7542bc7c38adf65b72",
+          "pixel_min": 0.010082929395139217,
+          "pixel_max": 0.8570489883422852,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": false,
+            "rotation_degrees": 9.796410473752502,
+            "zoom": 0.9777539899912117,
+            "brightness_multiplier": 0.8570489814343742
+          }
+        },
+        {
+          "view_id": 2,
+          "pixel_sha256": "8bea1fd66c7d28ede116645fbf5afff21e7651fb6eb2dd8d735bab0c72958e7e",
+          "pixel_min": 0.01132056675851345,
+          "pixel_max": 0.9622481465339661,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": true,
+            "rotation_degrees": -6.0406413020516005,
+            "zoom": 1.0544379843481462,
+            "brightness_multiplier": 0.9622481725424681
+          }
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "class_name": "Narrow Brown Leaf Spot",
+      "image": "Narrow Brown Leaf Spot/Narrow_brown_leaf_spot  (8).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "75060574b79dd7036956bed8c6b86d05ad959c7918605bed8e199fffd13ccd70",
+          "pixel_min": 0.003921568859368563,
+          "pixel_max": 1.0,
+          "augmentation": null
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "class_name": "Rice Hispa",
+      "image": "Rice Hispa/Rice_hispa  (162).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "0889bf5ecc2b0fa78e7d7096ef28c1acfe442127b202ea5595d0a392deb5ac58",
+          "pixel_min": 0.0117647061124444,
+          "pixel_max": 1.0,
+          "augmentation": null
+        },
+        {
+          "view_id": 1,
+          "pixel_sha256": "d752e2afbc367e29d9354240292e4a1d216606176d83ff83fa348580bb897724",
+          "pixel_min": 0.016583796590566635,
+          "pixel_max": 0.8457735776901245,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": false,
+            "rotation_degrees": -1.1578123309719004,
+            "zoom": 0.9164846751428084,
+            "brightness_multiplier": 0.8457735873575953
+          }
+        },
+        {
+          "view_id": 2,
+          "pixel_sha256": "06058031d8d6f13e40b5f9db0f9645a1cf5200cb9de75324f9c52222c4b70ca8",
+          "pixel_min": 0.018374847248196602,
+          "pixel_max": 0.9371171593666077,
+          "augmentation": {
+            "horizontal_flip": false,
+            "vertical_flip": true,
+            "rotation_degrees": -5.039571233957773,
+            "zoom": 1.058003704334087,
+            "brightness_multiplier": 0.9371171818386463
+          }
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "class_name": "Rice Hispa",
+      "image": "Rice Hispa/Rice_hispa  (48).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "600177ae1a93a2c568c67d0bb657651db778fbbf2cb16b028dee0a40f0fb6f71",
+          "pixel_min": 0.0,
+          "pixel_max": 0.9764705896377563,
+          "augmentation": null
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "class_name": "Sheath Blight",
+      "image": "Sheath Blight/Sheath_blight  (96).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "43f460b209225b52e28d60d4aa92e857c9d565ec1b8146cf221ac6c1d73ffdbc",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": null
+        },
+        {
+          "view_id": 1,
+          "pixel_sha256": "17ee11facab21f7be4f2be7caceb8a3257c62ffa7b266a484e731b4f5665cb78",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": false,
+            "rotation_degrees": -11.902806155336503,
+            "zoom": 1.0968444432230822,
+            "brightness_multiplier": 1.172534670317896
+          }
+        },
+        {
+          "view_id": 2,
+          "pixel_sha256": "6b6a330e6c135a0ca43e3f9816aee27f1a7cc62fec5b392ae8b7964a4ab69491",
+          "pixel_min": 0.003937159199267626,
+          "pixel_max": 1.0,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": true,
+            "rotation_degrees": 19.853422797318544,
+            "zoom": 1.068887756671448,
+            "brightness_multiplier": 1.0039755954310747
+          }
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "class_name": "Sheath Blight",
+      "image": "Sheath Blight/Sheath_blight  (140).jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "d2b903352adbba9eec5fec8ca29d20fef36d73f007472bdbeb8e225c01c453aa",
+          "pixel_min": 0.007843137718737125,
+          "pixel_max": 1.0,
+          "augmentation": null
+        }
+      ]
+    }
+  ]
+}

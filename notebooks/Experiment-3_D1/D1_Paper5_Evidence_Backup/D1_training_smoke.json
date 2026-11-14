@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "dataset": "D1",
+  "mode": "otsu",
+  "seed": 2026,
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "device": "/GPU:0",
+  "dtype": "float32",
+  "op_determinism": true,
+  "jit_compile": false,
+  "batch_size": 30,
+  "learning_rate": 0.0001,
+  "optimizer": "SGD",
+  "momentum": 0.9,
+  "nesterov": false,
+  "initialization_sha256": "7531bf3507abba811ae94207e0b4075124567ba239e09c772b402e5635c6dc50",
+  "trainable_variables_checked": 94,
+  "steps": [
+    {
+      "step": 1,
+      "seconds": 6.021280850000039,
+      "loss": 28.827953338623047,
+      "global_gradient_norm": 1518.511474609375
+    },
+    {
+      "step": 2,
+      "seconds": 0.4392966199998227,
+      "loss": 45.36646270751953,
+      "global_gradient_norm": 1388.977294921875
+    },
+    {
+      "step": 3,
+      "seconds": 0.44954401799986954,
+      "loss": 25.782100677490234,
+      "global_gradient_norm": 727.7132568359375
+    }
+  ],
+  "peak_device_bytes": 3878651904,
+  "images_per_second_after_warmup": 67.50366425080215,
+  "checkpoint_round_trip": true
+}

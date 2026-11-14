@@ -1,0 +1,202 @@
+{
+  "dataset": "D1",
+  "split": "test",
+  "mode": "otsu",
+  "image_count": 248,
+  "checkpoint_epoch": 6,
+  "checkpoint_sha256": "5e7ff66abde50e42ba65d8a125d505bdea3d6a0a71e801f4f3f9df722ed04757",
+  "initialization_sha256": "7531bf3507abba811ae94207e0b4075124567ba239e09c772b402e5635c6dc50",
+  "manifest_sha256": "3b756d0a4f0326a5e5123284aa884f23fe604d4ace6c56477491acd80ae728d0",
+  "predictions_sha256": "2c4dc7bd8910f28ee68ade6cf3d810006fe6af4e4a8466d8dca0c712ce2fa454",
+  "probability_class_order": [
+    "Bacterial Leaf Blight",
+    "Brown Spot",
+    "Healthy Rice Leaf",
+    "Leaf Blast",
+    "Leaf Scald",
+    "Narrow Brown Leaf Spot",
+    "Rice Hispa",
+    "Sheath Blight"
+  ],
+  "examples": [
+    "Bacterial Leaf Blight/Bacterial_leaf_Blight  (1).jpg",
+    "Bacterial Leaf Blight/Bacterial_leaf_Blight  (105).jpg",
+    "Bacterial Leaf Blight/Bacterial_leaf_Blight  (10).jpg",
+    "Bacterial Leaf Blight/Bacterial_leaf_Blight  (101).jpg"
+  ],
+  "sklearn": "1.6.1",
+  "matplotlib": "3.10.0",
+  "metrics": {
+    "correct": 110,
+    "accuracy": 0.4435483870967742,
+    "macro_precision": 0.4706652187728886,
+    "macro_recall": 0.4141732088718104,
+    "macro_f1": 0.41390757652584304,
+    "confusion_matrix": [
+      [
+        12,
+        2,
+        2,
+        9,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        4,
+        16,
+        0,
+        16,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        7,
+        9,
+        0,
+        0,
+        0,
+        7,
+        0
+      ],
+      [
+        6,
+        5,
+        1,
+        26,
+        1,
+        0,
+        0,
+        2
+      ],
+      [
+        3,
+        6,
+        0,
+        5,
+        9,
+        1,
+        1,
+        3
+      ],
+      [
+        4,
+        1,
+        0,
+        10,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        1,
+        4,
+        3,
+        0,
+        0,
+        0,
+        21,
+        3
+      ],
+      [
+        5,
+        6,
+        2,
+        5,
+        2,
+        0,
+        4,
+        16
+      ]
+    ],
+    "per_class": [
+      {
+        "class_id": 0,
+        "support": 27,
+        "correct": 12,
+        "precision": 0.34285714285714286,
+        "recall": 0.4444444444444444,
+        "f1": 0.3870967741935484,
+        "class_name": "Bacterial Leaf Blight",
+        "ovr_auc": 0.8320764203117144
+      },
+      {
+        "class_id": 1,
+        "support": 39,
+        "correct": 16,
+        "precision": 0.3404255319148936,
+        "recall": 0.41025641025641024,
+        "f1": 0.37209302325581395,
+        "class_name": "Brown Spot",
+        "ovr_auc": 0.8067721751932279
+      },
+      {
+        "class_id": 2,
+        "support": 23,
+        "correct": 9,
+        "precision": 0.5294117647058824,
+        "recall": 0.391304347826087,
+        "f1": 0.45,
+        "class_name": "Healthy Rice Leaf",
+        "ovr_auc": 0.9132367149758454
+      },
+      {
+        "class_id": 3,
+        "support": 41,
+        "correct": 26,
+        "precision": 0.36619718309859156,
+        "recall": 0.6341463414634146,
+        "f1": 0.4642857142857143,
+        "class_name": "Leaf Blast",
+        "ovr_auc": 0.8126546482856133
+      },
+      {
+        "class_id": 4,
+        "support": 28,
+        "correct": 9,
+        "precision": 0.6428571428571429,
+        "recall": 0.32142857142857145,
+        "f1": 0.42857142857142855,
+        "class_name": "Leaf Scald",
+        "ovr_auc": 0.8409090909090909
+      },
+      {
+        "class_id": 5,
+        "support": 18,
+        "correct": 1,
+        "precision": 0.3333333333333333,
+        "recall": 0.05555555555555555,
+        "f1": 0.09523809523809523,
+        "class_name": "Narrow Brown Leaf Spot",
+        "ovr_auc": 0.7830917874396135
+      },
+      {
+        "class_id": 6,
+        "support": 32,
+        "correct": 21,
+        "precision": 0.6176470588235294,
+        "recall": 0.65625,
+        "f1": 0.6363636363636364,
+        "class_name": "Rice Hispa",
+        "ovr_auc": 0.9376446759259259
+      },
+      {
+        "class_id": 7,
+        "support": 40,
+        "correct": 16,
+        "precision": 0.5925925925925926,
+        "recall": 0.4,
+        "f1": 0.47761194029850745,
+        "class_name": "Sheath Blight",
+        "ovr_auc": 0.7986778846153846
+      }
+    ],
+    "macro_ovr_auc": 0.840632924707052,
+    "weighted_ovr_auc": 0.8380899795916104
+  }
+}

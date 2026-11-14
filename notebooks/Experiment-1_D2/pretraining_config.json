@@ -1,0 +1,58 @@
+{
+  "paper": "Upadhyay and Dwivedi (2025), DOI: 10.1111/jph.70092",
+  "implementation": "Independent PyTorch adaptation, not exact MATLAB reproduction",
+  "dataset": "D2, four classes",
+  "manifest_sha256": "261b97b6fa700197f2dde6bc0f833bf802bd1301c0611606400e990cfad2a185",
+  "split_counts": {
+    "train": 3327,
+    "val": 712,
+    "test": 713
+  },
+  "class_mapping": {
+    "Bacterial Blight": 0,
+    "Blast": 1,
+    "Brown Spot": 2,
+    "Tungro": 3
+  },
+  "seed": 2026,
+  "batch_size": 30,
+  "epochs": 10,
+  "input_size": [
+    227,
+    227
+  ],
+  "backbone": "ImageNet-pretrained SqueezeNet 1.1",
+  "frozen_feature_indices": [
+    0,
+    3,
+    4
+  ],
+  "mfa_branch_filters": [
+    5,
+    5
+  ],
+  "class_projection": "10-to-4 pointwise convolution",
+  "preprocessing": "RGB resize, Lab L* min-max stretch, ImageNet normalization",
+  "augmentation": "Horizontal reflection, +/-30-pixel translations, independent 0.9-1.1 scaling",
+  "optimizer": {
+    "name": "SGD",
+    "backbone_lr": 0.0003,
+    "new_layer_lr": 0.0029999999999999996,
+    "momentum": 0.9,
+    "weight_decay_weights": 0.0001,
+    "weight_decay_biases": 0.0
+  },
+  "software": {
+    "pytorch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "opencv": "4.14.0"
+  },
+  "disclosures": [
+    "The original paper used five disease classes.",
+    "The final 10-to-4 projection is an independent reconstruction choice.",
+    "The new-layer learning-rate factor was not specified numerically in the paper.",
+    "Training uses the verified D2 duplicate-aware split manifest.",
+    "The original paper used six epochs; this experiment uses ten.",
+    "The same architecture and training settings are used for D1 and D2 except for the number of output classes."
+  ]
+}

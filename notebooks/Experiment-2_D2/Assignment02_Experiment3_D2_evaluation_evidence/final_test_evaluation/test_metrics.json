@@ -1,0 +1,29 @@
+{
+  "experiment": "Assignment02_Experiment3_D2",
+  "paper": "Paper 1",
+  "model": "MobileNetV3-Large",
+  "dataset": "D2",
+  "selected_training_stage": 2,
+  "selected_stage2_epoch": 8,
+  "test_images": 713,
+  "correct_predictions": 664,
+  "accuracy": 0.9312762973352033,
+  "macro_precision": 0.9326056303852233,
+  "macro_recall": 0.9334485110970121,
+  "macro_f1": 0.9284093590890513,
+  "auc_macro_ovr": 0.9941526222707409,
+  "auc_weighted_ovr": 0.9943853366336226,
+  "class_names": {
+    "0": "Bacterialblight",
+    "1": "Blast",
+    "2": "Brownspot",
+    "3": "Tungro"
+  },
+  "manifest_sha256": "261b97b6fa700197f2dde6bc0f833bf802bd1301c0611606400e990cfad2a185",
+  "checkpoint_sha256": "d21534ed22d938c4546008fef27277ccceee578c3e02da82673f4deb6d1cda7a",
+  "test_augmentation": false,
+  "test_shuffle": false,
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.13.2",
+  "sklearn_version": "1.6.1"
+}

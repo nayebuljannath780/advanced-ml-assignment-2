@@ -1,0 +1,14 @@
+{
+  "experiment": "Assignment02_Experiment3_D1",
+  "stage": "stage1_frozen_backbone",
+  "epochs_completed": 30,
+  "best_validation_epoch": 29,
+  "best_validation_accuracy": 0.5951417088508606,
+  "final_training_accuracy": 0.6885812878608704,
+  "final_validation_accuracy": 0.5829959511756897,
+  "final_training_loss": 0.9122143387794495,
+  "final_validation_loss": 1.147862434387207,
+  "training_seconds": 1137.00001998,
+  "checkpoint": "/kaggle/working/Assignment02_Experiment3_D1/stage1_best.keras",
+  "history_csv": "/kaggle/working/Assignment02_Experiment3_D1/stage1_history.csv"
+}

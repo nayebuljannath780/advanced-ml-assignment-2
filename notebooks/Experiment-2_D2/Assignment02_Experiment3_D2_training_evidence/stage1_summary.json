@@ -1,0 +1,22 @@
+{
+  "experiment": "Assignment02_Experiment3_D2",
+  "model": "MobileNetV3-Large",
+  "dataset": "D2",
+  "stage": 1,
+  "backbone_frozen": true,
+  "epochs_completed": 29,
+  "max_epochs": 30,
+  "best_epoch_by_val_accuracy": 21,
+  "best_val_accuracy": 0.867977499961853,
+  "final_training_accuracy": 0.9924857020378112,
+  "final_validation_accuracy": 0.8525280952453613,
+  "trainable_parameters": 123524,
+  "frozen_parameters": 2996352,
+  "manifest_sha256": "261b97b6fa700197f2dde6bc0f833bf802bd1301c0611606400e990cfad2a185",
+  "checkpoint_sha256": "385419381b7f1191da7b89501e5d534eef36029a0a53aa432ccc7241005605f1",
+  "history_sha256": "998f565e87b6957d80c6efea3cc71f5a22bf3decdac96e582e792dc167d4220d",
+  "checkpoint_selection": "val_accuracy",
+  "test_accessed": false,
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.13.2"
+}

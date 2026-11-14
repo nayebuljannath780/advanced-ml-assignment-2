@@ -1,0 +1,251 @@
+{
+  "manifest_sha256": "261b97b6fa700197f2dde6bc0f833bf802bd1301c0611606400e990cfad2a185",
+  "opencv": "4.14.0",
+  "pillow": "13.0.0",
+  "numpy": "2.1.3",
+  "image_shape": [
+    224,
+    224,
+    3
+  ],
+  "normalization": "RGB divided by 255",
+  "resize": "bilinear",
+  "seed": 2026,
+  "training_augmented_views_per_image": 2,
+  "rotation_degrees": [
+    -20.0,
+    20.0
+  ],
+  "zoom_range": [
+    0.9,
+    1.1
+  ],
+  "brightness_multiplier_range": [
+    0.8,
+    1.2
+  ],
+  "flip_probability_per_axis": 0.5,
+  "affine_border": "reflect_101",
+  "planned_counts": {
+    "train": 9981,
+    "val": 712
+  },
+  "samples": [
+    {
+      "split": "train",
+      "class_name": "Bacterial Blight",
+      "image": "Bacterialblight/BACTERIALBLIGHT_051.jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "e620d2e26c7929ffd213a8c351cca3260e74f5e604f8b3121a8d77c504b5fbcf",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": null
+        },
+        {
+          "view_id": 1,
+          "pixel_sha256": "74bcdeb408d5732924ed736d210deb6162bfd8d968afb179f0a7f3b283eac7b6",
+          "pixel_min": 0.0,
+          "pixel_max": 0.851334810256958,
+          "augmentation": {
+            "horizontal_flip": false,
+            "vertical_flip": true,
+            "rotation_degrees": -12.7967598731769,
+            "zoom": 0.9504739405476595,
+            "brightness_multiplier": 0.854686492550878
+          }
+        },
+        {
+          "view_id": 2,
+          "pixel_sha256": "f0623018b703539ed5594501856127983f4c5d987f2968febbb0516cc122d657",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": true,
+            "rotation_degrees": 0.47382284659832763,
+            "zoom": 0.9788504434441494,
+            "brightness_multiplier": 1.080969994887837
+          }
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "class_name": "Bacterial Blight",
+      "image": "Bacterialblight/BACTERIALBLIGHT1_135.JPG",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "c5fefae78a0e8393b3c5aa6c78ab9ced5ae9c97f1b4717a332f57896a13046eb",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": null
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "class_name": "Blast",
+      "image": "Blast/BLAST2_002.jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "798a46dc3c4280f408c4e0612ec43de943e8b8f901a19c8d008d2b91c2fdd02b",
+          "pixel_min": 0.0117647061124444,
+          "pixel_max": 1.0,
+          "augmentation": null
+        },
+        {
+          "view_id": 1,
+          "pixel_sha256": "b7016793d540ec145a9d3c1a48cd4f5c822e22f0b8c84981aa36dc2d356a6efd",
+          "pixel_min": 0.01569952256977558,
+          "pixel_max": 1.0,
+          "augmentation": {
+            "horizontal_flip": false,
+            "vertical_flip": true,
+            "rotation_degrees": -11.443417022881967,
+            "zoom": 1.0932639350216486,
+            "brightness_multiplier": 1.0008445698741637
+          }
+        },
+        {
+          "view_id": 2,
+          "pixel_sha256": "ca3b46aa4fb92f8133e8d07717e93822c87d6eccdb944b5773712122c4dc32be",
+          "pixel_min": 0.014099543914198875,
+          "pixel_max": 0.898845911026001,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": false,
+            "rotation_degrees": 10.094485834222468,
+            "zoom": 1.010674874293309,
+            "brightness_multiplier": 0.8988459081383913
+          }
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "class_name": "Blast",
+      "image": "Blast/BLAST9_014.jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "1c7593a4dcd14c722f85cb3142e53e7664a5370719d3ac2ee11c190f29c6df5c",
+          "pixel_min": 0.0,
+          "pixel_max": 0.8392156958580017,
+          "augmentation": null
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "class_name": "Brown Spot",
+      "image": "Brownspot/BROWNSPOT2_107.jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "0e40323b1135d409fbe0d3ef31f3b11af2420e2afe0adfe407f7b509ccae54d7",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": null
+        },
+        {
+          "view_id": 1,
+          "pixel_sha256": "6743fc4bc8cc437b38ebc9efe87e5bc8170f0e7a87ef2517c352f42e0357e725",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": {
+            "horizontal_flip": false,
+            "vertical_flip": false,
+            "rotation_degrees": -15.167319926740483,
+            "zoom": 0.94251394860333,
+            "brightness_multiplier": 1.0529383163975865
+          }
+        },
+        {
+          "view_id": 2,
+          "pixel_sha256": "9ef94ee790ee243433e7bacd911a9ca22b86ae22802d876de44eea3d1b4cdcf0",
+          "pixel_min": 0.0,
+          "pixel_max": 0.9794830083847046,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": true,
+            "rotation_degrees": 2.5826040245697826,
+            "zoom": 0.9548941027600767,
+            "brightness_multiplier": 0.9794829947158927
+          }
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "class_name": "Brown Spot",
+      "image": "Brownspot/BROWNSPOT2_185.jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "8f2eed42b232a3911a3b6d89d56bf26a394a5307bf8865358244a6cdfc65b34e",
+          "pixel_min": 0.0941176488995552,
+          "pixel_max": 0.9254902005195618,
+          "augmentation": null
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "class_name": "Tungro",
+      "image": "Tungro/TUNGRO3_114.JPG",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "2a2f7348957fbdf53c1c1f296b574ba24f94aaac125018c37bd9101adebd6759",
+          "pixel_min": 0.10588235408067703,
+          "pixel_max": 0.9607843160629272,
+          "augmentation": null
+        },
+        {
+          "view_id": 1,
+          "pixel_sha256": "b879749ea347bec90fce9ea86680659fa4194b23d322fccca438116a183c2dc4",
+          "pixel_min": 0.13101966679096222,
+          "pixel_max": 0.8834469318389893,
+          "augmentation": {
+            "horizontal_flip": true,
+            "vertical_flip": false,
+            "rotation_degrees": 19.264966691965228,
+            "zoom": 1.0843510455925496,
+            "brightness_multiplier": 0.9545718416423916
+          }
+        },
+        {
+          "view_id": 2,
+          "pixel_sha256": "9d1042a48ca7cca4550b6aa25a0dff4027c7073914771dfb8d3c6d0e0d7fd970",
+          "pixel_min": 0.11303018778562546,
+          "pixel_max": 0.8604878783226013,
+          "augmentation": {
+            "horizontal_flip": false,
+            "vertical_flip": false,
+            "rotation_degrees": 15.017037191512365,
+            "zoom": 1.0446705831521332,
+            "brightness_multiplier": 0.9297644565372395
+          }
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "class_name": "Tungro",
+      "image": "Tungro/TUNGRO4_074.jpg",
+      "views": [
+        {
+          "view_id": 0,
+          "pixel_sha256": "6d9cfc5484d2620f81c2802dafed9d7b0eef10ddd61e9149f34ddc1b7f6a466e",
+          "pixel_min": 0.0,
+          "pixel_max": 1.0,
+          "augmentation": null
+        }
+      ]
+    }
+  ]
+}
